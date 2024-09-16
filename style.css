@@ -2,6 +2,7 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    max-height: fit-content;
   }
   
   nav {
@@ -64,17 +65,19 @@ button:hover {
 }
 
 .intro {
-    background-image: url(images/IMG_0660-2.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.747),
+    rgba(0, 0, 0, 0.69)), url(images/IMG_0660-2.jpg);
     background-color: white;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 720px;
+    max-height: 690px;
     width: 100%;
-    position: absolute;
-    
 }
 
 .intro-text {
     font-size: 2em;
     color: white;
+    font-weight:  200pt; ;
+    text-align: center;
+    padding: 35vh;
 }
