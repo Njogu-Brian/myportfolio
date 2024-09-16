@@ -47,6 +47,34 @@
     background-color: rgb(101, 49, 107);
   }
 
-  .hello {
+  button {
+    background-color: rgb(101, 49, 107);
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 12px;
 
-  }
+}
+
+button:hover {
+    background-color: rgb(199, 195, 200);
+}
+
+.intro {
+    background-image: url(images/IMG_0660-2.jpg);
+    background-color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 720px;
+    width: 100%;
+    position: absolute;
+    
+}
+
+.intro-text {
+    font-size: 2em;
+    color: white;
+}
