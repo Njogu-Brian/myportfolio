@@ -60,13 +60,17 @@
 
 }
 
+#contactbutton {
+  color: white;
+}
+
 button:hover {
     background-color: rgb(199, 195, 200);
 }
 
 .intro {
     background-image: linear-gradient(rgba(0, 0, 0, 0.747),
-    rgba(0, 0, 0, 0.69)), url(images/IMG_0660-2.jpg);
+    rgba(0, 0, 0, 0.69)), url(images/me.jpg);
     background-color: white;
     background-repeat: no-repeat;
     background-size: cover;
@@ -80,4 +84,25 @@ button:hover {
     font-weight:  200pt; ;
     text-align: center;
     padding: 35vh;
+}
+
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
 }
